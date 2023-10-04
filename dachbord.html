@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="Light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/custome.css">
+    <link rel="stylesheet" href="./assets/css/sidebars.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header class="p-3 py-2 border-bottom position-fixed start-0 top-0 end-0 bg-white">
+        <div class="container-fluid">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+
+                <a class="navbar-brand d-flex" href="#">
+                    <img src="./assets/image/logo.png" alt="Logo" height="24" class="d-inline-block align-text-top me-2">
+                    <span>
+                        <b><span style="color: #fcca3f;">Firebase</span> Manager ™</b>
+                    </span>
+                </a>
+
+                <!-- <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="#" class="nav-link px-2 link-secondary">Overview</a></li>
+              <li><a href="#" class="nav-link px-2 link-body-emphasis">Inventory</a></li>
+              <li><a href="#" class="nav-link px-2 link-body-emphasis">Customers</a></li>
+              <li><a href="#" class="nav-link px-2 link-body-emphasis">Products</a></li>
+            </ul> -->
+
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3  ms-lg-auto" role="search">
+                    <input type="search" class="form-control shadow-sm" placeholder="Search..." aria-label="Search">
+                </form>
+
+                <div class="dropdown text-end">
+                    <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+                    </a>
+                    <ul class="dropdown-menu text-small " style="min-width: 200px;">
+
+                        <small class="px-3 d-block">Neil Sims</small>
+                        <small class="px-3 d-block fw-medium">neil.sims@flowbite.com</small>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item fs-6" href="#">Small</a></li>
+                        <li><a class="dropdown-item fs-6" href="#">Settings</a></li>
+                        <li><a class="dropdown-item fs-6" href="#">Profile</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item fs-6" href="#">Sign out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="p-3 vh-100 border-end border-1 border-opacity-25 border-secondary position-fixed" style="width: 280px;">
+
+        <ul class="list-unstyled ps-0">
+            <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                Projects
+            </button>
+                <div class="collapse show" id="home-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><i class="bi bi-plus-circle-fill me-2"></i> Add One..</a></li>
+                        <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Muthoer Hubber</a></li>
+                        <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">banu</a></li>
+                        <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Reports</a></li>
+                    </ul>
+                </div>
+            </li>
+
+           
+            <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+              Users
+            </button>
+                <div class="collapse" id="account-collapse" style="">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><i class="bi bi-plus-circle-fill me-2"></i> Add One..</a></li>
+
+                        <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Profile</a></li>
+                        <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Settings</a></li>
+                        <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Sign out</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#admins-collapse" aria-expanded="false">
+              Admins
+            </button>
+                <div class="collapse" id="admins-collapse" style="">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><i class="bi bi-plus-circle-fill me-2"></i> Add One..</a></li>
+
+                        <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Profile</a></li>
+                        <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Settings</a></li>
+                        <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Sign out</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="border-top my-3"></li>
+            <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                    Collections
+            </button>
+                <div class="collapse" id="dashboard-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><i class="bi bi-arrow-clockwise me-2"></i> Synce..</a></li>
+                        <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Overview</a></li>
+                        <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Weekly</a></li>
+                        <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Monthly</a></li>
+                        <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Annually</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+            Custome Collections
+            </button>
+                <div class="collapse" id="orders-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><i class="bi bi-plus-circle-fill me-2"></i> Add One..</a></li>
+                        
+                        <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Processed</a></li>
+                        <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Shipped</a></li>
+                        <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Returned</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#componants-collapse" aria-expanded="false">
+             Componants
+            </button>
+                <div class="collapse" id="componants-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><i class="bi bi-plus-circle-fill me-2"></i> Add One..</a></li>
+                        
+                        <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Processed</a></li>
+                        <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Shipped</a></li>
+                        <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Returned</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#singleType-collapse" aria-expanded="false">
+             Single Type
+            </button>
+                <div class="collapse" id="singleType-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"><i class="bi bi-plus-circle-fill me-2"></i> Add One..</a></li>
+                        
+                        <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Processed</a></li>
+                        <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Shipped</a></li>
+                        <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Returned</a></li>
+                    </ul>
+                </div>
+            </li>
+            
+        </ul>
+    </div>
+
+    <div class="allData">
+        <ol class="breadcrumb breadcrumb-chevron p-3 bg-body-tertiary">
+            <li class="breadcrumb-item">
+              <a class="link-body-emphasis" href="#">
+                <i class="bi bi-house"></i>
+                <span class="visually-hidden">Home</span>
+              </a>
+            </li>
+            <li class="breadcrumb-item">
+              <a class="link-body-emphasis fw-semibold text-decoration-none" href="#">Projects</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Mother hbugger
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Collections
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Recipes
+            </li>
+          </ol>
+
+          <div class="p-4 py-2 mb-2">
+              <h4>Recipes</h4>
+              <div class="d-flex justify-content-between">
+                <div class="col-4 d-flex">
+                    <input type="search" class="form-control shadow-sm form-control-sm" placeholder="Search..." aria-label="Search">
+                    <button class="btn btn-light shadow-sm px-2 fw-medium btn-sm mx-2" type="button"><i class="bi bi-search"></i></button>
+                    <button class="btn btn-light shadow-sm px-2 fw-medium btn-sm" type="button"><i class="bi bi-cassette-fill"></i></button>
+                </div>
+                <div class="col-4 text-end">
+                    <button class="btn btn-primary shadow-sm px-2 fw-medium btn-sm" type="button"><i class="bi bi-plus-circle-fill me-1"></i>Add Recipe</button>
+                    <button class="btn btn-primary shadow-sm px-2 fw-medium btn-sm" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="bi bi-plus-circle-fill me-1"></i> Add Recipe</button>
+
+                </div>
+              </div>
+          </div>
+
+          <div class="table-responsive">
+            <table class="table table-hover balancCell">
+                <thead>
+                    <tr>
+                        <th class="bg-body-tertiary" scope="col" style="width: 20px;"><input class="form-check-input" type="checkbox" value=""></th>
+                        <th class="bg-body-tertiary" scope="col">#</th>
+                        <th class="bg-body-tertiary" scope="col">First</th>
+                        <th class="bg-body-tertiary" scope="col">Last</th>
+                        <th class="bg-body-tertiary" scope="col">Handle</th>
+                        <th class="bg-body-tertiary" scope="col">Handle</th>
+                        <th class="bg-body-tertiary" scope="col" style="min-width: 200px;">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th><input class="form-check-input" type="checkbox" value=""></th>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@The tag allows you to display text with whitespaces and line breaks as-is. Also, code must be entity-encoded: For example, the code sample</td>
+                        <td>@The tag allows you to display text with whitespaces and line breaks as-is. Also, code must be entity-encoded: For example, the code sample</td>
+                        <td>
+                            <button type="button" class="btn btn-sm btn-light shadow-sm" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-trash-fill"></i> Delete</button>
+                            <button type="button" class="btn btn-sm btn-light shadow-sm" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-pencil-square"></i> Edit user</button>
+                        </td>
+                    </tr>
+    
+    
+                </tbody>
+            </table>
+          </div>
+        
+    </div>
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-left modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-6" id="exampleModalLabel">Modal title</h1>
+                    <small><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></small>
+
+                </div>
+                <div class="modal-body">
+
+                    <ul class="nav nav-tabs mb-3" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active fw-medium" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Normal</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link fw-medium" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Json</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                            <div class="mb-3">
+                                <small><label class="form-label fw-medium">Email address</label></small>
+                                <input type="email" class="form-control shadow-none bg-light-subtle border-2" placeholder="Mark">
+                            </div>
+                            <div class="mb-3">
+                                <small><label class="form-label fw-medium">phone</label></small>
+                                <input type="email" class="form-control shadow-none bg-light-subtle border-2" placeholder="Otto">
+                            </div>
+                            <div class="mb-3">
+                                <small><label class="form-label fw-medium">isPuplshed</label></small>
+                                <input type="email" class="form-control shadow-none bg-light-subtle border-2" placeholder="@mdo">
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                            <div class="mb-3">
+                                <textarea class="form-control" rows="10">
+{
+    'title':'ahmed',
+    'name':'car',
+    'font':'awsome',
+    'menu':[{'title':'ahmed'}]
+}
+</textarea>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer d-flex justify-content-between">
+                    <button class="btn btn-secondary shadow-sm px-3 fw-medium btn-sm" data-bs-dismiss="modal" type="button">Close</button>
+                    <button class="btn btn-primary shadow-sm px-3 fw-medium btn-sm" type="button">Save Changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+      <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas with body scrolling</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <p>Try scrolling the rest of the page to see this option in action.</p>
+        </div>
+
+        
+      </div>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/sidebars.js"></script>
+    <script src="./assets/js/custome.js"></script>
+</body>
+
+</html>
